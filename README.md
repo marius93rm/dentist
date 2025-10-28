@@ -1,56 +1,44 @@
-# Dentist Website Template
+# Genesis Dental Clinic Website
 
-A responsive single-page dental and healthcare landing page built with static HTML, CSS, and JavaScript. The template showcases services, team members, pricing, testimonials, FAQs, and blog teasers, making it suitable for clinics, medical practices, and appointment-driven businesses.
+A single-page site for Genesis Dental Clinic in Codlea, Brașov, showcasing the clinic's mission, full-service offering, and direct booking options. The page is built entirely with static HTML, CSS, and JavaScript, so it can be hosted on any static web server.
 
-## Preview
+## Quick start
 
-Open `index.html` in a browser to explore the live template:
+Open `index.html` in a browser to explore the live site:
 
 ```bash
 # From the project root
-open index.html  # macOS
+open index.html      # macOS
 xdg-open index.html  # Linux
-start index.html  # Windows
+start index.html     # Windows
 ```
 
-> The template relies on local assets only, so no build step is required.
+No build step is required because all assets are local.
 
-## Features
+## Clinic highlights on the site
 
-- **Hero and booking CTA** with appointment button and contact details prominently displayed.
-- **Services highlights** featuring icons, descriptions, and pricing details for multiple medical specialties.
-- **Doctor profiles** with social links, schedules, and specialization tags.
-- **Testimonials slider** powered by Chocolat and custom JavaScript for patient reviews.
-- **FAQ accordion** leveraging Bootstrap's collapse behavior.
-- **Blog/news section** with thumbnail cards and metadata.
-- **Newsletter subscription form** and footer with quick links and contact information.
+- **Localized hero and navigation** featuring the clinic address, click-to-call booking button, and Romanian navigation labels.
+- **About section** detailing the mission, vision, and core values focused on integrated dental care for families in Codlea and the Brașov area.
+- **Services showcase** covering whitening and veneers, implantology, orthodontics, extractions, hygiene, and prosthetics with clear explanations for patients.
+- **“De ce noi” strengths grid** presenting differentiators such as complete treatments in one location, experienced specialists, modern equipment, transparent communication, and flexible scheduling.
+- **Patient testimonials** spotlighting real promotions and social proof used by the clinic.
+- **FAQ accordion** answering common questions around insurance, first consultations, implant pricing, and urgent appointments.
+- **Contact footer** with phone CTA, email placeholder, Google Maps embed of Str. Lunga nr. 132, and guidance for booking by phone.
 
-## Technology Stack
+## Technology stack
 
-- **HTML5** for layout and semantic structure (`index.html`).
-- **CSS3** via `style.css`, `css/bootstrap.min.css`, and vendor styles for theming and responsive design.
-- **JavaScript** with `js/script.js`, jQuery, Bootstrap bundle, Modernizr, and Chocolat for interactivity and component behavior.
-- **Assets** served from the `images/` directory and plugin bundles under `plugins/`.
+- **HTML5** (`index.html`) for structure and content.
+- **CSS3** via `style.css` plus vendor files under `css/` for layout, colors, and responsive behavior.
+- **JavaScript** in `js/` to power interactions such as accordions, sliders, and navigation behavior.
+- **Assets** provided in the `images/` directory and vendor bundles under `plugins/`.
 
-## Project Structure
+## Customization tips
 
-```
-.
-├── index.html          # Main landing page
-├── style.css           # Custom theme styles
-├── css/                # Bootstrap and vendor CSS
-├── js/                 # jQuery, Bootstrap bundle, custom scripts
-├── images/             # Site imagery and icons
-└── plugins/            # Third-party libraries (Bootstrap, Chocolat)
-```
-
-## Customization
-
-1. **Branding**: Replace logos in `images/` and update colors/typography in `style.css`.
-2. **Content**: Edit the relevant sections inside `index.html` to adjust copy, service listings, schedules, pricing, and FAQs.
-3. **Images**: Swap out hero, service, and testimonial images in `images/` to reflect your brand.
-4. **Scripts**: Modify `js/script.js` if you need to tweak interactive behaviors (e.g., sliders, accordions).
+1. **Branding** – Replace the logos in `images/` and adjust typography or colors in `style.css` to match updated clinic guidelines.
+2. **Content** – Edit sections inside `index.html` to revise copy (e.g., new doctors, services, testimonials, or FAQs) and update contact details.
+3. **Imagery** – Swap hero and gallery photos in `images/` for the latest shots of the clinic and team.
+4. **Scripts** – Modify `js/script.js` if you need to alter slider settings, navigation behavior, or add new interactive elements.
 
 ## License
 
-The template is provided as-is without an explicit license. Verify the original author's terms (TemplatesJungle) before using it in production.
+The site is provided as-is without an explicit license. Confirm that you have the right to use TemplatesJungle assets before deploying publicly.
